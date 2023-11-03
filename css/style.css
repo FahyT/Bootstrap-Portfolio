@@ -1,3 +1,17 @@
-.mainapp-row {
-    height: 800px;
+.jumbobg {
+    background-image: url(../images/nordwood-themes-EZSm8xRjnX0-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainapp-img {
+    height: 40vh;
+}
+
+.smallapp-img {
+    height: 20vh;
 }
