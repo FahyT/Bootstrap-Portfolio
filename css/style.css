@@ -61,6 +61,7 @@ body {
 
 /* Footer styles*/
 
+
 .contactContain {
     /* background-color: var(--colour1); */
     color:var(--colour1);
@@ -69,8 +70,16 @@ body {
     align-items: center;
     justify-content: center;
     height: 3em;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1), 0 0 40px rgba(0,0,0,0.1);
   }
 
 .contact-items {
     padding: 20px;
 }
+
+.contactContain a:hover {
+    color: var(--emphasiscolor);
+}
+
