@@ -59,6 +59,12 @@ body {
     color: var(--colour2) !important;
 }
 
+.customAlign {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 /* Footer styles*/
 
 .contactContain {
